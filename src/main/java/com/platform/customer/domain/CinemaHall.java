@@ -4,11 +4,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-
 @Setter
 @Getter
-public class City {
+public class CinemaHall {
     String name;
-    String country;
-    List<CinemaHall> cinemaHallList;
+    int noOfSeats;
+    CinemaHallSeat cinemaHallSeat;
+    List<Show> show;
 }

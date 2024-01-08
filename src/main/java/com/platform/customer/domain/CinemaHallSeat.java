@@ -5,7 +5,8 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class Crew {
-    String director;
-    String producer;
+public class CinemaHallSeat {
+    int seatRow;
+    int seatColumn;
+    SeatType seatType;
 }
