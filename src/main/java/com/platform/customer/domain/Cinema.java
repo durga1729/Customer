@@ -5,8 +5,9 @@ import lombok.Setter;
 
 import java.util.List;
 
-@Setter
 @Getter
-public class City {
-    List<Cinema> cinemas;
+@Setter
+public class Cinema {
+    Movie movie;
+    List<CinemaHall> cinemaHallList;
 }
